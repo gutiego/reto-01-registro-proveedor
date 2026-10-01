@@ -1,0 +1,20 @@
+{
+  "umbral_confianza": 0.8,
+  "umbral_similitud_minima": 0.5,
+  "fecha_referencia_por_defecto": "2026-09-03",
+  "pais_maestro": "CO",
+  "id_tributario_por_pais": {
+    "CO": "NIT",
+    "EC": "RUC",
+    "PE": "RUC",
+    "PA": "RUC",
+    "HN": "RTN"
+  },
+  "clave_id_tributario": "nit",
+  "etiquetas_tributarias_genericas": [
+    "identificacion tributaria",
+    "numero de identificacion fiscal"
+  ],
+  "prefijo_datos_bancarios": "banco.",
+  "palabras_vacias": ["de", "del", "la", "el", "los", "las", "o", "y", "a", "en", "para", "por"]
+}
