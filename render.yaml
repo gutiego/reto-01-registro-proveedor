@@ -1,0 +1,20 @@
+# Despliegue en Render (Blueprint). La clave se ingresa en el panel de Render, nunca aquí.
+services:
+  - type: web
+    name: reto-01-registro-proveedor
+    runtime: node
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        value: claude-opus-5-5
+      - key: FECHA_REFERENCIA
+        value: "2026-09-03"
+      - key: MAX_ITERACIONES
+        value: "25"
+      - key: MAX_TOKENS_SESION
+        value: "400000"
