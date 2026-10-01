@@ -2,7 +2,7 @@
 
 Agente conversacional que lee una solicitud de registro como proveedor, llena el formulario desde el repositorio maestro (xlsx, pdf o valores para portal), arma el paquete para firma y **pide confirmación** antes de cualquier envío (simulado).
 
-- **Link de prueba:** _pendiente de despliegue_
+- **Link de prueba:** https://reto-01-registro-proveedor.onrender.com (plan gratuito: la primera visita puede tardar 30–60 s en despertar)
 - **Stack:** Node 20+ con TypeScript (`tsx`), Hono, zod, exceljs, pdf-lib, Anthropic SDK. El front es HTML plano.
 
 ## Cómo probarlo
