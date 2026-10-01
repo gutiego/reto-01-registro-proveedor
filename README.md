@@ -5,6 +5,14 @@ Agente conversacional que lee una solicitud de registro como proveedor, llena el
 - **Link de prueba:** _pendiente de despliegue_
 - **Stack:** Node 20+ con TypeScript (`tsx`), Hono, zod, exceljs, pdf-lib, Anthropic SDK. El front es HTML plano.
 
+## Cómo probarlo
+
+| Opción | Requisitos | Qué se verifica |
+|---|---|---|
+| **Link público** (Render) | Navegador | Chat completo. En el plan gratuito, la primera visita puede tardar 30–60 s en "despertar" el servicio. |
+| **`npm run demo`** | Node 20+, **sin clave** | Las 5 herramientas sobre los 4 casos, con confirmación y errores. |
+| **Local con chat** | Node 20+ y una clave propia de Anthropic | Todo, incluido el ciclo del agente. |
+
 ## Levantar en local (un comando)
 
 ```bash
